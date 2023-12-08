@@ -88,6 +88,10 @@ a {
     top: 120px;
     width: 450px
 }
+.mainbutton:hover {
+    transform: scale(1.2);
+    transition:.5s;
+}
 .hero-image {
     padding-left: 80px;
     background-image: url('../Images/mainimage.png');
@@ -204,6 +208,10 @@ footer {
     padding-top: 140px;
     padding-bottom: 140px;
     height: 540px;
+}
+.view-menu:hover {
+    transform: scale(1.2);
+    transition:.5s;
 }
 
 @media screen and (max-width: 648px) {
