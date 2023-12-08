@@ -1,11 +1,105 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <link rel="stylesheet" href="index.css">
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div></div>
-  </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebsiteCSS</title>
+    <link rel="stylesheet" href="stylesheet/stylesheet.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://use.typekit.net/ngm1ejs.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="mobile-menu nav-font" id="mobile-menu" style="display: none;">
+        <button id="close-menu">X</button>
+        <p ><a href="#">Menu</a></p>
+        <p><a href="#">About</a></p>
+        <p><a href="#">Contact</a></p>
+    </div>
+    <header class="grid-container-2 header">
+        <img src="Images/Kasamalogo.png" width="75">
+        <nav class="nav">
+            <a href="#">MENU</a>
+            <a href="#">ABOUT</a>
+            <a href="#">CONTACT</a>
+            <button id="mobile-button"><span class="material-symbols-outlined">menu</span></button>
+        </nav>
+    </header>
+    <main>
+        <section class="hero-image">
+            <div class="hero-text">
+                <img class="kasama-name" src="Images/kasamaname.png">
+            </div> 
+            <div>
+                <button class="mainbutton">VIEW HOURS</button>
+            </div>
+        </section>
+        <section class="who-we-are">
+            <div>
+                <h2 class="sourcesans-headline" style="text-align: center;">WHO WE ARE</h2>
+            </div>
+            <div>
+                <p class="body-text" style="text-align: center;">At Kasama, we are more than just a restaurant. Our name, “Kasama,” meaning “companion” in Tagalog, reflects our commitment to welcoming you as a cherished companion on an unforgettable adventure. With a deep passion for Filipino cuisine, we take pride in showcasing its rich and diverse flavors. We invite you to join us on this culinary voyage and become part of our Kasama family.</p>
+            </div>
+        </section>
+        <section>
+            <div class="grid-container-3">
+                <div class="image-cover">
+                    <img class="image-cover" src="Images/environment.png" width="457px">
+                </div>
+                <div class="padded">
+                    <h2 class="sourcesansheadline-small reviews-headers">FOOD</h2>
+                    <p class="body-text-small" style="margin-top: 0;">“The food at Kasama is an exquisite fusion of authentic Filipino flavors and modern culinary artistry that leaves your taste buds dancing.”</p>
+                </div>
+                <div class="image-cover">
+                    <img class="image-cover" src="Images/food.png" width="457px">
+                </div>
+                <div class="padded">
+                    <h2 class="sourcesansheadline-small reviews-headers">ENVIRONMENT</h2>
+                    <p class="body-text-small" style="margin-top: 0;">“The environment at Kasama exudes a warm and inviting atmosphere, seamlessly blending Filipino hospitality with a modern, urban flair.”</p>
+                </div>
+                <div class="image-cover">   
+                    <img class="image-cover" src="Images/service.png" width="457" height="357">
+                </div>
+                <div class="padded">
+                    <h2 class="sourcesansheadline-small reviews-headers" style="margin-bottom: 0;">SERVICE</h2>
+                    <p class="body-text-small" style="margin-top: 0;">“They exuded genuine warmth and attentiveness, making the dining experience truly exceptional."</p>
+                </div>
+        </section>
+        <section>
+            <div class="grid-container-1 its-about-fam">
+                <div>
+                    <h2 class="sourcesans-headline fam-text">IT'S ABOUT FAMILY</h2>
+                    <p class="body-text-dark body-family"> Just like the warm embrace of a close-knit family, our dining experience is designed to bring people together through the joy of shared meals that is best enjoyed with those you hold dear. </p>
+                </div>
+                <div>
+                    <img src="Images/Family.png" class="family-image">
+                </div>
+            </div>
+        </section>
+        <section class="end-hero-image">
+            <div>
+                <h2 class="sourcesans-headline center-div rest-hours">RESTAURANT HOURS</h2>
+            </div>
+            <div>
+                <p class="body-text-dark center-div hours-mobile">Monday to Thursday: <br>
+                    9 AM - 8 PM <br>
+                    Friday to Sunday: <br>
+                    9 AM - 11 PM</p>
+                <button class="view-menu">VIEW MENU</button>
+            </div>
+        </section>
+    </main>
+        <footer class="logo-gap">
+            <div class=>
+                <img src="Images/Kasamalogowhite.png" width="84px">
+            </div>
+            <div class="mobile-logos logo-container">
+                <img class="mobile-logos" style="margin-right: 30px;" src="Images/Instagram copy.png" width="97">
+                <img class="mobile-logos" style="margin-right: 30px;" src="Images/Facebook copy.png" width="97">
+                <img class="mobile-logos" src="Images/Youtube copy.png" width="97">
+            </div>
+        </footer>
+        <script src="javascript/index.js"></script>
+</body>
 </html>
